@@ -1,6 +1,8 @@
 <?php
+
+if ( ! defined('BASEPATH')) exit('No direct script access allowed');     
   
-  /** Users control **/
+/** Users control **/
 
 class Backup extends CI_Controller {    
     
