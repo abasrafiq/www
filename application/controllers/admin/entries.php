@@ -58,7 +58,11 @@ class Entries extends CI_Controller {
     
     
     public function addPost()
-    {     
+    {   
+        if (!$this->session->userdata('user')){
+            redirect('admin/index/login');
+        } 
+         
         $this->load->view('admin/entries/admin_add_entry'); 
     }
     

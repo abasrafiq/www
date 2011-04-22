@@ -38,7 +38,7 @@
     <?php foreach($backup as $file): ?>
     <tr>
         <td><?=$file?></td>
-        <td></td>
+        <td><?=anchor('admin/backup/deleteBackup/'.$file, 'delete')?></td>
     </tr>
     <?php endforeach;?> 
     </table> 
