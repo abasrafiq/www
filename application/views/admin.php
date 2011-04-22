@@ -19,10 +19,11 @@
 <content>
 
 <ul class="adminMenu">
-    <li><a href="#config">Configuration control panel</a></li>
-    <li><a href="#post">Post control panel</a></li>
-    <li><a href="#pages">Page control panel</a></li>
-    <li><a href="#users">Users control panel</a></li> 
+    <li><a href="#config">Configuration</a></li>
+    <li><a href="#post">Post control</a></li>
+    <li><a href="#pages">Pages</a></li>
+    <li><a href="#users">Users</a></li> 
+    <li><a href="#backup">Backup</a></li> 
 </ul>
 
 <div class="config" id="config">
@@ -64,7 +65,7 @@
 <?php endforeach;?> 
 </table> 
 
-<?=anchor('admin/addPost', 'Add post')?>
+<?=anchor('admin/addPost', 'Add post', 'class="doButton"')?>
     
 </div> 
 
@@ -81,7 +82,7 @@
 <?php endforeach;?> 
 </table> 
 
-<?=anchor('admin/addPage', 'Add page')?>
+<?=anchor('admin/addPage', 'Add page', 'class="doButton"')?>
     
 </div> 
 
@@ -93,16 +94,42 @@
 <tr><td><strong>id</strong></td><td><strong>login</strong></td><td><strong>email</strong></td><td><strong>maintenace</strong></td></tr> 
 <?php foreach($users->result() as $user): ?>
  
-<tr><td><?=$user->id?></td><td><?=$user->login?></td><td><?=$user->email?></td><td><?=anchor('admin/editUser/'.$user->id, 'Edit')?> / <?=anchor('admin/deleteUser/'.$user->id, 'Delete')?></td></tr>
+<tr><td><?=$user->id?></td><td><?=$user->login?></td><td><?=$user->email?></td><td>
+
+
+<?
+    if($user->id != 1){
+        echo anchor('admin/editUser/'.$user->id, 'Edit')." / ".anchor('admin/deleteUser/'.$user->id, 'Delete');   
+    }    
+    
+?>
+
+</td></tr>
 
 <?php endforeach;?> 
 </table> 
 
-<?=anchor('admin/addUser', 'Add user')?>
+<?=anchor('admin/addUser', 'Add user', 'class="doButton"')?>
     
 </div> 
 
 
+
+<div class="backup" id="backup">        
+<small>backup control panel</small> 
+
+<table>
+<tr><td><strong>filename</strong></td><td><strong>maintenace</strong></td></tr> 
+<?php foreach($backup as $file): ?>
+ 
+<tr><td><?=$file?></td><td></td></tr>
+
+<?php endforeach;?> 
+</table> 
+            
+<?=anchor('admin/backup', 'Create backup', 'class="doButton"')?>
+    
+</div> 
 
 
                                      

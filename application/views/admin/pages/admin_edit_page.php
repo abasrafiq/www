@@ -38,9 +38,18 @@
 
                 <label>Template:</label>
                 <p><select name="template">
-                    <?php foreach($templates as $data): ?> 
-                        <option><?=$data?></option>
-                    <?php endforeach;?>
+                    <?php foreach($templates as $tpl)
+                    { 
+                       if ($data->template == $tpl)
+                       {
+                            echo "<option selected>".$tpl."</option>";   
+                       }
+                       else
+                       {
+                            echo "<option>".$tpl."</option>";
+                       }
+                    }
+                    ?>
                 </select></p>
                 
                 

@@ -20,7 +20,7 @@
 
 <ul class="adminMenu">
     <li><a href="index" class="selected">Configuration</a></li>
-    <li><a href="entries">Entries control</a></li>
+    <li><a href="entries">Entries</a></li>
     <li><a href="pages">Pages</a></li>
     <li><a href="users">Users</a></li> 
     <li><a href="backup">Backup</a></li> 

@@ -260,18 +260,36 @@ ERROR - 2011-03-28 18:55:55 --> 404 Page Not Found --> admin/admin
 ERROR - 2011-03-28 18:56:32 --> 404 Page Not Found --> admin/admin
 ERROR - 2011-03-28 18:56:37 --> Invalid query: 
 ERROR - 2011-03-28 18:57:02 --> Invalid query: 
-ERROR - 2011-03-28 19:20:26 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:20:42 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:20:45 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:20:46 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:20:46 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:20:47 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:20:59 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:00 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:01 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:02 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:03 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:04 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:05 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:06 --> 404 Page Not Found --> favicon.ico
-ERROR - 2011-03-28 19:21:07 --> 404 Page Not Found --> favicon.ico
+ERROR - 2011-03-28 21:10:51 --> Severity: Notice  --> Undefined offset:  0 Z:\home\code.xx\www\application\controllers\front.php 66
+ERROR - 2011-03-28 21:10:51 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at Z:\home\code.xx\www\system\core\Exceptions.php:170) Z:\home\code.xx\www\system\core\Common.php 414
+ERROR - 2011-03-28 21:11:11 --> Severity: Notice  --> Undefined offset:  0 Z:\home\code.xx\www\application\controllers\front.php 66
+ERROR - 2011-03-28 21:11:11 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at Z:\home\code.xx\www\system\core\Exceptions.php:170) Z:\home\code.xx\www\system\core\Common.php 414
+ERROR - 2011-03-28 21:11:14 --> Severity: Notice  --> Undefined offset:  0 Z:\home\code.xx\www\application\controllers\front.php 66
+ERROR - 2011-03-28 21:11:14 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at Z:\home\code.xx\www\system\core\Exceptions.php:170) Z:\home\code.xx\www\system\core\Common.php 414
+ERROR - 2011-03-28 21:11:24 --> Severity: Notice  --> Undefined offset:  0 Z:\home\code.xx\www\application\controllers\front.php 66
+ERROR - 2011-03-28 21:11:24 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at Z:\home\code.xx\www\system\core\Exceptions.php:170) Z:\home\code.xx\www\system\core\Common.php 414
+ERROR - 2011-03-28 21:11:50 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'show = 1' at line 1
+ERROR - 2011-03-28 21:18:14 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:19:05 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:19:41 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:21:04 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:21:34 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:22:59 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:23:08 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:26:09 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:26:19 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:27:38 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:28:22 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:28:32 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:28:36 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:29:29 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:30:34 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:30:35 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:30:58 --> 404 Page Not Found --> pages/css
+ERROR - 2011-03-28 21:31:17 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:42:22 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:42:34 --> Query error: Unknown column 'css' in 'where clause'
+ERROR - 2011-03-28 21:46:42 --> 404 Page Not Found --> pages/css
+ERROR - 2011-03-28 21:47:04 --> Severity: Notice  --> Undefined offset:  0 Z:\home\code.xx\www\application\controllers\pages.php 45
+ERROR - 2011-03-28 21:47:04 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at Z:\home\code.xx\www\system\core\Exceptions.php:170) Z:\home\code.xx\www\system\core\Common.php 414
+ERROR - 2011-03-28 21:57:55 --> Query error: Unknown column 'css' in 'where clause'

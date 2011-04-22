@@ -1,15 +1,13 @@
 <?php
-
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');     
   
-/** Users control **/
+  /** Users control **/
 
 class Backup extends CI_Controller {    
     
     public function index()
     {
         $admin_data['backup'] = get_filenames('backup/');
-        $this->load->view('admin/backup', $admin_data);   
+        $this->load->view('admin/backup/backup', $admin_data);   
         
     } 
       

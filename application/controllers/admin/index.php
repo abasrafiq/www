@@ -1,6 +1,4 @@
-<?php 
-
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /** Admin controller **/
 
@@ -34,10 +32,7 @@ class Index extends CI_Controller {
             {
                 return true;
             } 
-            
         }
-        
-              
     }
     
     
@@ -64,20 +59,8 @@ class Index extends CI_Controller {
         
         else
         {
-            
-            
-            if(!$this->isAdmin())
-            {
-                $this->load->view('admin/loginFalse');
-            }
-            
-            else
-            { 
-                redirect('admin/index');          
-            }                
-            
-        }
-        
+            redirect('admin/index');                      
+        }  
     }
     
     
